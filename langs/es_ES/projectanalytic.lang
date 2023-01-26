@@ -1,0 +1,80 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleProjectanalyticName'
+ModuleProjectanalyticName = Repartition by tag
+# Module description 'ModuleProjectanalyticDesc'
+ModuleProjectanalyticDesc = Gets the projects balances repartition by tag/category
+
+#
+# Admin page
+#
+ProjectanalyticSetup = Projectanalytic setup
+Settings = Settings
+ProjectanalyticSetupPage = Projectanalytic setup page
+PROJECTANALYTIC_MYPARAM1 = My param 1
+PROJECTANALYTIC_MYPARAM1Tooltip = My param 1 tooltip
+PROJECTANALYTIC_MYPARAM2=My param 2
+PROJECTANALYTIC_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+ProjectanalyticAbout = About Projectanalytic
+ProjectanalyticAboutPage = Projectanalytic about page
+
+#
+# Sample page
+#
+
+# Parameters
+PROJECTANALYTIC_CA = Determina cómo se dividen las ganancias de un proyecto entre las diferentes etiquetas/categorías asociadas con ese proyecto. Si esta configuración está habilitada, las ganancias se distribuirán en función de las ventas totales del proyecto. Si no se establece, las ganancias se dividirán de manera igual entre todas las etiquetas/categorías asociadas con el proyecto
+
+# Screens texts
+RprjT_LeftMenuText = Repartition by tag
+RprjT_ProfitIsCalculatedWith = If more than one tag is associated to a project, the balances are built in proportion of the number of projects.<br> The balances are computed with :
+RprjT_Title = Projects analytics
+RprjT_Main = Repartition of the projects balances
+RprjT_HelpMain = Gives the repartition of the balances computed on the projects by tag/category.<br>At the beginning are joined together the projects not associated to a tag/category, if existing. The tags/categories follow with their projects.<br>The way of computing the balances is shown within the informations popups
+RprjT_PrjsWithoutCateg = Projects without category
+RprjT_PrjWithoutCateg = Projet without category
+RprjT_HelpPrjWithoutCateg = The projects coming in the list below don't have an associated category.
+RprjT_RefPrj_Lib = Project reference
+RprjT_LibPrj_Lib = Project name
+RprjT_HelpLibPrj_Lib = Name of the project
+RprjT_Prjs_Lib = projects
+RprjT_Prj_Lib = project
+RprjT_Tiers_Lib = Thirdparty
+RprjT_ProjTiers_Lib = Name of the project<br>Associated thirdparty
+RprjT_BalanceVATfree_Lib = Balance VAT free 
+RprjT_BalanceVATincluded_Lib = Balance VAT included
+RprjT_Repartition_Lib = Repartition
+RprjT_HeldVATfree_Lib = Kept VAT free
+RprjT_HeldVATincluded_Lib = Kept VAT included
+RprjT_Cumulation_Lib = Cumulation
+RprjT_View_Lib = View
+
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

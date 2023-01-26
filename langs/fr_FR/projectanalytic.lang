@@ -1,0 +1,74 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleProjectanalyticName'
+ModuleProjectanalyticName = Répartition par tag
+# Module description 'ModuleProjectanalyticDesc'
+ModuleProjectanalyticDesc = Permet d'obtenir la répartition des bénéfices projets par tag/catégorie
+
+#
+# Page d'administration
+#
+ProjectanalyticSetup = Configuration du module Projectanalytic
+Settings = Réglages
+ProjectanalyticSetupPage = Page de configuration du module Projectanalytic
+
+#
+# Page À propos
+#
+About = À propos
+ProjectanalyticAbout = À propos de Projectanalytic
+ProjectanalyticAboutPage = Page à propos de Projectanalytic
+
+#
+# Page d'exemple
+#
+
+# Paramètres
+PROJECTANALYTIC_CA = Détermine comment les bénéfices d'un projet sont répartis parmi les différents tags/catégories associés à ce projet. Si ce paramètre est activé, les bénéfices seront distribués en fonction des ventes totales du projet. Si désactivé, les bénéfices seront répartis également parmi tous les tags/catégories associés au projet
+
+# Textes écrans
+RprjT_LeftMenuText = Répartition par tag
+RprjT_ProfitIsCalculatedWith = Si un projet est associé à plusieurs tags/catégories, les soldes sont répartis en proportion du nombre de projets.<br> Les soldes sont calculés sur la base de :
+RprjT_Title = Analytique projets
+RprjT_Main = (répartition des bénéfices des projets pour un bénéfice total de $globalBalanceCumul et un chiffre d'affaire total de $globalSales)
+RprjT_HelpMain = Donne la répartition des bénéfices calculés sur les projets par tag/catégorie.<br>En première partie sont regroupés les projets n'étant pas associés à un tag/catégorie, s'il en existe.<br>Apparaissent ensuite les tags/catégories avec leurs différents projets.<br>NB: Le mécanisme de calcul des soldes figure dans les infobulles ci-après
+RprjT_PrjsWithoutCateg = Projets sans catégorie
+RprjT_PrjWithoutCateg = Projet sans catégorie
+RprjT_HelpPrjWithoutCateg = Les projets de la liste ci-dessous n'ont pas de tag/catégorie attribué(e)
+RprjT_RefPrj_Lib = Référence projet
+RprjT_LibPrj_Lib = Libellé projet
+RprjT_HelpLibPrj_Lib = Libellé du projet
+RprjT_Prjs_Lib = projets
+RprjT_Prj_Lib = projet
+RprjT_Tiers_Lib = Tiers
+RprjT_ProjTiers_Lib = Nom du projet<br>Tiers associé
+RprjT_BalanceVATfree_Lib = Bénéfice HT
+RprjT_BalanceVATincluded_Lib = Bénéfice TTC 
+RprjT_Repartition_Lib = Répartition
+RprjT_HeldVATfree_Lib = Bénéfice HT<br>retenu
+RprjT_HeldVATincluded_Lib = Bénéfice TTC<br>retenu
+RprjT_Cumulation_Lib = Cumul
+RprjT_View_Lib = Vue
+
+#
+# Box d'exemple
+#
+MyWidget = Mon widget
+MyWidgetDescription = Description de mon widget
